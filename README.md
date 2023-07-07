@@ -1,13 +1,9 @@
 # frontend-of-library
-In this project,we have done a search bar for library management system using react and API.  
+In this project, we have done a library  management website using HTML, CSS, and javascript.  
 
-The steps involved in this  
+link for the website:https://beamish-twilight-35d825.netlify.app/
 
-1).Designing the user interface for our Book Search App using React components.  
 
-2).To fetch book data, we will utilize the Open Library Search API
-
-3).We will make HTTP requests using the Fetch API or Axios to retrieve book information based on user search queries.
 
 
 
