@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta name ="viewport" content="width=device-width,initial-scale=1.0">
+<title>Registration form Form</title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<div class="container">
+<div class="box signin">
+<h2>Already Have an Account ?</h2> 
+<button class="signinBtn">Sign in</button>
+</div>
+<div class="box signup">
+<h2>Don't Have an Account ?</h2>
+<button class="signupBtn">Sign up</button>
+</div>
+<div class="formBx">
+<div class="form signinform">
+<form >
+<h3>Sign In</h3>
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+<input type="submit" value="Login"> 
+<a href="#" class="forgot">Forgot Password</a>
+</form> 
+</div>
+<div class="form signupform">
+<form>
+<h3>Sign up</h3>
+<input type="text" placeholder="Username">
+<input type="text" placeholder="EmailAddress">
+<input type="password" placeholder="Password">
+<input type="password" placeholder="Confirm">
+<input type="submit" value="Register"> 
+<a href="#" class="forgot">Forgot Password</a>
+</form> 
+</div>
+</div>
+</div> 
+<script>
+let signinBtn = document.querySelector('.signinBtn');
+let signupBtn =document.querySelector('.signupBtn');
+let body = document.querySelector('body');
+signupBtn.onclick = function() {
+body.classList.add('slide');
+}
+signinBtn.onclick = function() {
+body.classList.remove('slide');
+}
+</script>
+</body>
+</html> 
